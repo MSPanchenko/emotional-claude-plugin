@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "emotional-claude",
-      "source": ".",
+      "source": "./emotional-claude",
       "description": "Emotion-aware prompt-hygiene audit for CLAUDE.md files, skills, and agent definitions. Flags framings that push Claude toward desperation, sycophancy, harshness, or concealment. Based on Anthropic's emotion-concepts paper."
     }
   ]
