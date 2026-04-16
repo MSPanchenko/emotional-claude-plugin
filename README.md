@@ -32,11 +32,24 @@ To uninstall later:
 /plugin uninstall emotional-claude
 ```
 
-To update after a new release:
+### Updates
+
+By default, third-party marketplaces (anything that's not Anthropic's official one) have **auto-update disabled**. You have two options:
+
+**Option 1 — enable auto-update once** (recommended):
+
+```
+/plugin
+```
+
+In the opened UI: go to the **Marketplaces** tab → select `emotional-claude-plugin` → toggle **Enable auto-update**. From then on, new releases of the plugin are pulled automatically at Claude Code startup.
+
+**Option 2 — update manually whenever you want**:
 
 ```
 /plugin marketplace update emotional-claude-plugin
 /plugin install emotional-claude@emotional-claude-plugin
+/reload-plugins
 ```
 
 ## How to use
