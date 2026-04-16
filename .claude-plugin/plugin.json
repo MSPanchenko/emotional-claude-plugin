@@ -1,0 +1,8 @@
+{
+  "name": "emotional-claude",
+  "description": "Audit CLAUDE.md files, skills, and agent definitions for framings that trigger harmful emotional states in the model — desperation, sycophancy, harshness, concealment. Based on Sofroniew et al. 2026, 'Emotion Concepts and their Function in a Large Language Model'.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Max Panchenko"
+  }
+}
